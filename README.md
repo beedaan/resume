@@ -1,4 +1,1 @@
-resume
-======
-
-A repository for my resume
+![Brendan Heussler](Brendan_Heussler_Resume.png)
