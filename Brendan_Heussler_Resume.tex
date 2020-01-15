@@ -30,83 +30,85 @@
 \newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
 \newcommand{\ressubheading}[4]{
 \begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
-		\textbf{#1} & #2 \\
-		\textit{#3} & \textit{#4} \\
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
 \end{tabular*}\vspace{-6pt}}
 %-----------------------------------------------------------
 
 
 \begin{document}
-\pagecolor{white}
+    \pagecolor{white}
 
-\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
-	\textbf{\large Brendan T. Heussler}  & 410.980.9672 (cell)\\
-	San Diego, CA &  bheussler@gmail.com \\
-\end{tabular*}
-\\
+    \begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+        \textbf{\large Brendan T. Heussler}  & 410.980.9672 (cell)\\
+        San Diego, CA & bheussler@gmail.com \\
+    \end{tabular*}
+    \\
 
-\vspace{0.1in}
+    \vspace{0.1in}
 
-\resheading{Summary}
-\begin{description}
-	\item
-I am a software engineer that been building Java applications professionally for five years.  For over two years, I have worked at LifeJourney, a Baltimore-based education technology startup, building a web application used by hundreds of students on a daily basis.  Java is my most proficient language, though I also work with Javascript on the front end using Angular and have used NodeJS for a few side projects.
-\end{description}
+    \resheading{Summary}
+    \begin{description}
+        \item
+		I am a software engineer that has been building Java applications professionally for seven years.
+		Currently, I work for SwingAI.  My most recent project is Swing Index, an on-demand mobile golf app.
+		 I also support LifeJourney, building web applications used by hundreds of students on a daily basis.
+		 Java is my most proficient language, though I also work with Javascript on the front end using AngularJS and have used Node.js for a few side projects, as well as WordPress.
+    \end{description}
 
-\resheading{Relevant Experience}
-\begin{itemize}
-	\item
-	\ressubheading{LifeJourney.us}{LifeJourney}{Software Engineer}{2014-Present}
-	\begin{itemize}
-		\resitem{Built and maintained web application in Java using Spring and Hibernate, capable of handling thousands of concurrent users by means of NGINX load balancing and multiple Tomcat servers}
-		\resitem{Developed and maintained frontend in Javascript (Angular)}
-		\resitem{Provided backend services to iOS application via RESTful web services}
-		\resitem{Maintained 80\% unit test coverage using JUnit and Jasmine on the back and front ends respectively, as well built integration tests using Geb and REST Assured}
-		\resitem{Wrote migration scripts in Groovy that managed the migration of multiple versions of the application to satisfy multiple clients concurrently}
-		\resitem{Built deployment scripts in Ruby using Capistrano to manage the deployment of the application to multiple environments}
-	\end{itemize}
+    \resheading{Relevant Experience}
+    \begin{itemize}
+		\item
+		\ressubheading{Swing Index}{LifeJourney / Swing AI}{Software Engineer}{2018 - Present}
+		\begin{itemize}
+			\resitem{Worked on a small team of 5 to build the application from the ground up}
+			\resitem{Developed entities and business logic using Spring Framework and Hibernate}
+			\resitem{Provided backend services to iOS and Android applications via RESTful web services}
+			\resitem{Responsible for building the instructor scoring dashboard using AngularJS}
+			\resitem{Implemented an asynchronous messaging system using Apache Kafka}
+			\resitem{Worked closely with a designer to develop and maintain dozens of marketing websites}
+		\end{itemize}
 
-	\item
-	\ressubheading{MatOnto Materials Science Framework}{iNovex Information Systems}{Software Developer}{2014}
-	\begin{itemize}
-		\resitem{Developed REST controllers using Groovy on Grails that orchestrated CKAN data publishing}
-		\resitem{Built ontologies serialized in RDF to enable federated SPARQL queries across multiple data sources}
-		\resitem{Managed and counseled interns who built customer facing website using Twitter Bootstrap}
-	\end{itemize}
+        \item
+        \ressubheading{LifeJourney.us}{LifeJourney / Swing AI}{Software Engineer}{2014 - Present}
+        \begin{itemize}
+            \resitem{Built and maintained web application in Java using Spring and Hibernate, capable of handling thousands of concurrent users by means of NGINX load balancing and multiple Tomcat servers}
+            \resitem{Developed and maintained frontend in Javascript (Angular)}
+            \resitem{Maintained 80\% unit test coverage using JUnit and Jasmine on the back and front ends respectively, as well built integration tests using Geb and REST Assured}
+            \resitem{Wrote migration scripts in Groovy that managed the migration of multiple versions of the application to satisfy multiple clients concurrently}
+            \resitem{Built deployment scripts in Ruby using Capistrano to manage the deployment of the application to multiple environments}
+        \end{itemize}
 
-	\item
-	\ressubheading{Semantic Web Integration Prototype}{iNovex Information Systems}{Software Developer}{2012 - 2013}
-	\begin{itemize}
-		\resitem{Designed graph data system backed by Accumulo big data store to handle high volume integrated data, which led to increased data retrieval and application response time}
-		\resitem{Integrated structured, semi-structured, and unstructured data using W3C Semantic Web standards, which yielded inherent data layer linkages between like or similar entities from disparate data sets}
-	\end{itemize}
+        \item
+        \ressubheading{MatOnto Materials Science Framework}{iNovex Information Systems}{Software Developer}{2012-2014}
+        \begin{itemize}
+            \resitem{Developed RESTful web services using Groovy on Grails that orchestrated CKAN data publishing}
+            \resitem{Built ontologies serialized in RDF to enable federated SPARQL queries across multiple data sources}
+			\resitem{Designed Accumulo powered Graph Data store to handle high volume integrated data}
+        \end{itemize}
 
-\end{itemize}
+    \end{itemize}
 
-\resheading{Education}
-\begin{itemize}
-	\item
-	\ressubheading{Connecticut College}{New London, CT}{B.A. Major Computer Science, Minor Economics (\textbf{GPA 3.28})}{Aug. 2008 - May. 2012}
-	\begin{itemize}
-		\resitem{Relevant Courses: Computational Intelligence, Artificial Intelligence, Networks, Algorithms, Data Structures, Computer Organization, Topics in Software Development}
-	\end{itemize}
+    \resheading{Education}
+    \begin{itemize}
+        \item
+        \ressubheading{Connecticut College}{New London, CT}{B.A.\ Major Computer Science, Minor Economics (\textbf{GPA 3.28})}{2008 - 2012}
+        \begin{itemize}
+            \resitem{Relevant Courses: Computational Intelligence, Artificial Intelligence, Networks, Algorithms, Data Structures, Knowledge Representation and Reasoning, Software Engineering Methodologies}
+        \end{itemize}
+    \end{itemize}
 
-	\item
-	\ressubheading{University of Nottingham}{Nottingham, UK}{Study Abroad}{Sept. 2010 - Jan. 2011}
-	\begin{itemize}
-		\resitem{Relevant Courses: Operations Research and Optimization, Knowledge Representation and Reasoning, Graphical User Interfaces, Software Engineering Methodologies, Introduction to Formal Reasoning}
-	\end{itemize}
-\end{itemize}
-
-\resheading{Skills}
-\begin{description}
-	\item[Languages:]
-		Java (Proficient), Javascript (Proficient), Groovy (Proficient), Ruby (Competent), HTML/CSS (Proficient), Sass (Proficient), MySQL (Competent)
-	\item[Certifications:]
-		Oracle Certified Associate, Java SE 7 Programmer
-\end{description}
-
-
-
+    \resheading{Skills}
+    \begin{description}
+        \item[Languages:]
+        Java (Proficient), Javascript (Proficient), Groovy (Proficient), Node.js (Competent), Ruby (Competent), HTML/CSS (Proficient), Sass (Proficient), SQL (Competent)
+        \item[Frameworks \& Libraries:]
+        Spring (Proficient), Hibernate (Proficient), AngularJS (Proficient), Bootstrap (Proficient), Gulp (Proficient), Webpack (Proficient)
+        \item[Certifications:]
+        Oracle Certified Associate, Java SE 7 Programmer
+        \item[Volunteer:]
+        Open Source Contributor for Twitter Bootstrap;
+        Designer and Developer of https://usa505.org
+    \end{description}
 
 \end{document}
